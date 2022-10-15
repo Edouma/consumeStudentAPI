@@ -1,7 +1,7 @@
 import Button from 'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form';
 
-const login = () => {
+const signup = () => {
     return ( 
         <div className='form-content'>
             <Form>
@@ -18,11 +18,11 @@ const login = () => {
                     <Form.Control type="password" placeholder="Password" />
                 </Form.Group>
                 <Button variant="primary" type="submit">
-                    Login
+                    Signup
                 </Button>
             </Form>
         </div>
      );
 }
  
-export default login;
+export default signup;

@@ -31,7 +31,7 @@ const navBar = () => {
           </Nav>
           <Nav>
             <Nav.Link href="login">login</Nav.Link> 
-            <Nav.Link eventKey={2} href="#signUp">
+            <Nav.Link eventKey={2} href="Signup">
               sign-up
             </Nav.Link>
           </Nav>
