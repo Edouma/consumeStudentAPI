@@ -28,7 +28,7 @@ const Signup = () => {
          headers: {"content-type": "application/json"},
          body: JSON.stringify(data)
         }).then(()=>{
-         console.log('new user added');
+            console.log('new user added'); 
         //  history.push('/');
         })
     }
