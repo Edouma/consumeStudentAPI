@@ -27,10 +27,14 @@ const Signup = () => {
          method: 'POST',
          headers: {"content-type": "application/json"},
          body: JSON.stringify(data)
-        }).then(()=>{
-            console.log('new user added'); 
+        }).then(response => response.json()
+            //()=>{
+            //console.log('new user added'); 
         //  history.push('/');
-        })
+        //}
+        )
+        //.then(error => alert(error.statu));
+        .then(result => alert(JSON.stringify(result.error.message )));
     }
 
     // const handleSubmit = async (e) => {
